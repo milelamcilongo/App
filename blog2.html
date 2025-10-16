@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background: pink;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    article {
+        background: #ffffff;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .date {
+        color: #777;
+    }
+    
+    button {
+        background:#23CED9;
+        color: #ffffff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    button:hover {
+        background: #45a049;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px 0;
+        background:purple;
+        color: #ffffff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Blog Post Title 1</h2>
+            <p class="date">Published on febuary 19, 2025 by Author</p>
+            <p>This is the content about the book</p>
+            <button class="read-more">Read More</button>
+        </article>
+        
+        <article>
+            <h2>Blog Post Title 2</h2>
+            <p class="date">Published on febuary 19, 2025 by Author</p>
+            <p>This is the content of the second blog post thank you for enjoying these books</p>
+            <button class="read-more">Read More</button>
+        </article>
+    </main>
+    
+    <footer>
+        <p> 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+</html>
